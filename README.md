@@ -7,7 +7,7 @@ def follow(file_path):
             # Move to the end of file
             file.seek(0, os.SEEK_END)
 
-            print(f"Monitoring {file_paath}...\n")
+            print(f"Monitoring {file_path}...\n")
 
             while True:
                 line = file.readline()
